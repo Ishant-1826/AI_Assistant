@@ -1,0 +1,24 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example configuration
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
